@@ -59,10 +59,10 @@ export class PipelineMultiEnvMonitoring {
         const blueprintCloudWatch = new CloudWatchMonitoringConstruct().create(scope, context.prodEnv2.account, context.prodEnv2.region);
 
         // Argo configuration per environment
-        const prodArgoAddonConfig = createArgoAddonConfig('prod', 'https://github.com/aws-samples/eks-blueprints-workloads.git');
+        const prodArgoAddonConfig = createArgoAddonConfig('prod', 'https://github.com/sunilcsi/eks-blueprints-workloads.git');
 
         // const { gitOwner, gitRepositoryName } = await getRepositoryData();
-        const gitOwner = 'aws-samples';
+        const gitOwner = 'sunilcsi';
         const gitRepositoryName = 'cdk-eks-blueprints-patterns';
 
         const amgIamSetupStackProps: AmgIamSetupStackProps = {

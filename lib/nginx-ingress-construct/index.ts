@@ -10,7 +10,7 @@ const rikerManifestDir = './lib/teams/team-riker/'
 const teamManifestDirList = [burnhamManifestDir, rikerManifestDir]
 
 const accountID = process.env.CDK_DEFAULT_ACCOUNT!;
-const gitUrl = 'https://github.com/aws-samples/eks-blueprints-workloads.git';
+const gitUrl = 'https://github.com/sunilcsi/eks-blueprints-workloads.git';
 
 
 /**

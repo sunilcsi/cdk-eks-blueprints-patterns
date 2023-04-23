@@ -43,7 +43,7 @@ export default class PipelineConstruct {
 
         blueprints.CodePipelineStack.builder()
             .name("blueprints-eks-pipeline")
-            .owner("aws-samples")
+            .owner("sunilcsi")
             .repository({
                 repoUrl: 'cdk-eks-blueprints-patterns',
                 credentialsSecretName: 'github-token',

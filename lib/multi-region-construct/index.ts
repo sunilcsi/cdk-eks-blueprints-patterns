@@ -26,8 +26,8 @@ export default class MultiRegionConstruct {
     async buildAsync(scope: Construct, id: string) : Promise<blueprints.EksBlueprint[]> {
         // Setup platform team
         const accountID = process.env.CDK_DEFAULT_ACCOUNT!;
-        const gitUrl = 'https://github.com/aws-samples/eks-blueprints-workloads.git';
-        const gitSecureUrl = 'git@github.com:aws-samples/eks-blueprints-workloads.git';
+        const gitUrl = 'https://github.com/sunilcsi/eks-blueprints-workloads.git';
+        const gitSecureUrl = 'git@github.com:sunilcsi/eks-blueprints-workloads.git';
 
         await prevalidateSecrets(); // this checks if required secrets exist in the target regions
         

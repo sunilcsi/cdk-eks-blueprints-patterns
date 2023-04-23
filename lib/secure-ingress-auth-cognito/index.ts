@@ -8,7 +8,7 @@ import { prevalidateSecrets } from '../common/construct-utils';
 import { SECRET_ARGO_ADMIN_PWD } from '../multi-region-construct';
 import * as cognito from 'aws-cdk-lib/aws-cognito';
 
-const gitUrl = 'https://github.com/aws-samples/eks-blueprints-workloads.git';
+const gitUrl = 'https://github.com/sunilcsi/eks-blueprints-workloads.git';
 
 //Class Cognito Stack 
 
